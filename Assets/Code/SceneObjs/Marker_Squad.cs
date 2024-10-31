@@ -23,6 +23,7 @@ public class Marker_Squad : Marker_DataAssigner
     public bool IgnoreFactionAllyCount = false;
     
     [Space(10)]
+    [Tooltip("NewTandem: Create a brand new series of squads that will spawn at their own pace.\n\nAddToMatchingFaction: Join an already existing wave of enemies.\n\nMissionWaves:Like NewTandem, but uses the Start/EndText values below and fully locks down the room.")]
     public TandemTypes WaveSpawnType = TandemTypes.NewTandem;
     [Tooltip("Text that plays during MissionWaves spawn type.")]
     public string StartText = "", StartText_Sub = "", EndText = "", EndText_Sub = "";

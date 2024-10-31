@@ -76,7 +76,7 @@ MonoBehaviour:
       Total: 5
       GenerationScale: 0
     WeaponStock: []
-    WeaponStock_RandomSeed: 0
+    WeaponStock_RandomSeed: 1
     WeaponDrafts: []
     Bosses: []
     CustomSquads: []
