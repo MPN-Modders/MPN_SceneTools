@@ -60,7 +60,7 @@ public class Marker_Squad : Marker_DataAssigner
         public int WeaponStock_RandomSeed = 0;     
 
         [SerializeField]
-        [Tooltip("Rules for assigning weapons to squads, by spawn number.")]
+        [Tooltip("Rules for assigning weapons to squads, by spawn number.\n\nIgnorePref: Squad won't use their WeaponPrefs to pick weapons. \n\nMelee, Ranged, ForceUnarmed: Set the squad to pick from this weapon type.\n\nInvertedPick: The squad will take its weapon from the front of the weapon list rather than the end.")]
         public List<WeaponDraft_STP> WeaponDrafts = new List<WeaponDraft_STP>();
 
         [SerializeField]
@@ -116,7 +116,8 @@ public class Marker_Squad : Marker_DataAssigner
     [System.Serializable]
     public class WeaponDraft_STP
     {
-        public enum DraftTypes { Default, Melee, Ranged, ForceUnarmed, InvertedPick, None = 50 }; // Default has guys auto-generate their preferred Main and Sidearms. InvertedPick has guys draw weapons from the lowest tier rather than the highest.
+        public enum DraftTypes { IgnorePref, Melee, Ranged, ForceUnarmed, InvertedPick, None = 50 }; // Default has guys auto-generate their preferred Main and Sidearms. InvertedPick has guys draw weapons from the lowest tier rather than the highest.
+        [Tooltip("Rules for assigning weapons to squads, by spawn number.\n\nIgnorePref: Squad won't use their WeaponPrefs to pick weapons. \n\nMelee, Ranged, ForceUnarmed: Set the squad to pick from this weapon type.\n\nInvertedPick: The squad will take its weapon from the front of the weapon list rather than the end.")]
         public DraftTypes Type;
         public int SquadNumber;
     }
