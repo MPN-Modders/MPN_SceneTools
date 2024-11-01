@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.745283, g: 0.61521006, b: 0.61521006, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 0.8545387, b: 0.48584908, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -435,7 +435,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -7407359351324910318, guid: 1031c52adae0ffb47a07bfe02eacd583,
+      objectReference: {fileID: 8824118095934594637, guid: 1031c52adae0ffb47a07bfe02eacd583,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d1d3606ac3d95b478548ec5c13b664c, type: 3}
@@ -1628,17 +1628,47 @@ PrefabInstance:
     - target: {fileID: 6755597039878712450, guid: cf4f5330efea25d48925e73561d2e849,
         type: 3}
       propertyPath: AmbientColor.r
-      value: 0.745283
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6755597039878712450, guid: cf4f5330efea25d48925e73561d2e849,
         type: 3}
       propertyPath: AmbientColor.g
-      value: 0.61521006
+      value: 0.8545387
       objectReference: {fileID: 0}
     - target: {fileID: 6755597039878712450, guid: cf4f5330efea25d48925e73561d2e849,
         type: 3}
       propertyPath: AmbientColor.b
-      value: 0.61521006
+      value: 0.48584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 6755597039878712450, guid: cf4f5330efea25d48925e73561d2e849,
+        type: 3}
+      propertyPath: FogLinearStartEnd.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6755597039878712450, guid: cf4f5330efea25d48925e73561d2e849,
+        type: 3}
+      propertyPath: FogLinearStartEnd.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6755597039878712450, guid: cf4f5330efea25d48925e73561d2e849,
+        type: 3}
+      propertyPath: FogDensity
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6755597039878712450, guid: cf4f5330efea25d48925e73561d2e849,
+        type: 3}
+      propertyPath: FogColor.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 6755597039878712450, guid: cf4f5330efea25d48925e73561d2e849,
+        type: 3}
+      propertyPath: FogColor.g
+      value: 0.2554867
+      objectReference: {fileID: 0}
+    - target: {fileID: 6755597039878712450, guid: cf4f5330efea25d48925e73561d2e849,
+        type: 3}
+      propertyPath: FogColor.b
+      value: 0.24096651
       objectReference: {fileID: 0}
     - target: {fileID: 6755597039878353065, guid: cf4f5330efea25d48925e73561d2e849,
         type: 3}

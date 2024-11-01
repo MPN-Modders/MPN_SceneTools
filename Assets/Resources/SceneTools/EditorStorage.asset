@@ -28,7 +28,7 @@ MonoBehaviour:
     Mesh: {fileID: 3417675997412986688, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
     Type: 3
   - name: ' > Swing'
-    Mesh: {fileID: 0}
+    Mesh: {fileID: 3417675997412986688, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
     Type: 4
   - name: ' > Heavy'
     Mesh: {fileID: 7333384801786549601, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
@@ -164,15 +164,15 @@ MonoBehaviour:
   - name: ' > Standard'
     Mesh: {fileID: -2321583348032724586, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
     Type: 0
-  - name: ' > Standard'
+  - name: ' > Foot'
     Mesh: {fileID: 8165828423868451271, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
     Type: 1
-  - name: ' > Standard'
+  - name: ' > Short'
     Mesh: {fileID: -7453795867390381474, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
     Type: 2
-  - name: ' > Standard'
+  - name: ' > Wide'
     Mesh: {fileID: -8946653112635679485, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
     Type: 3
-  - name: ' > Standard'
+  - name: ' > Pegboard'
     Mesh: {fileID: -71495351801911237, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
     Type: 100
