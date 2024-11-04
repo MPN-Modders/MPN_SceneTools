@@ -43,10 +43,8 @@ public class Marker_Squad : Marker_DataAssigner
     [System.Serializable]
     public class WaveSpawn_STP
     {
-        [Range(1, 20)]
         [Tooltip("Used by Wave_Generator to estimate squad size. Squads cannot be bigger than this value.")]
         public int MaxSquadSize = 4;    
-        [Range(1, 20)]
         [Tooltip("Used by Wave_Manager. What's the cutoff for guys on screen? (Note: If no guys on screen, the next squad will spawn no matter its roster count).")]
         public int MaxUnitCount = 8;    
 
