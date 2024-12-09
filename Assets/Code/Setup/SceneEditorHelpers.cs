@@ -44,3 +44,22 @@ public enum CharacterTypes
 public enum VocationList { Nimble, Demolition, Hacker, Dissonant, Zed, Mag,Medical, Service,Swimmer, Civilian, Excavator, Ghost, Occult, Loner, Mechanic,Security, Digital, Clockwork, NONE = 100, IMPOSSIBLE, DEFAULT = 1000 }
 
 public enum AffectCharacters { None, Everyone, NonEssentials, Essentials, PlayerSquad, Bosses, NotWaterproof }
+
+public enum TraitList
+{
+    Zed, NoPain, Hero, AutoDodgeThrown,   
+    NoCombo, BulletsAutoHit, NoWeapons, UNUSED_0, TrickyHead, UNUSED_1, SpawnDual, BowlingPin, Deadly_Contact, NoMelee, WalkPulse, UNUSED_2, NoGore, UNUSED_3, InfiniteAmmo, NoDisarm, VanishDeath, VanishDeactivate, Blind,             
+    ZeroGravityDeath, EffectOnDeactivate, GrappleKiller, NoCombatLock, Unphased, DizzyRagdoll, UNUSED_4, TurretSpin, UNUSED_5, Mushy, StartWounds, NoDizzy, H2HAngry, NoH2HSnap, NoExecute_Hilt, WeakHands, ItemsGoneOnDeath,  
+    StaggerOnLowHealth, DualWieldOverride, Lumbering, Sluggish, TwoHandOverride, Clumsy, Deaf, RemotePickup, ZedProof, MegaKnockback, AlwaysGoreDeath, Heavy, Uncounterable, UNUSED_6, NoCombatRagdoll, ThrowForward, DashAttacker,      
+    NoExecute_Local, Unconvertable, GrappleAttack, Robotic, IgnoreAutoEmbed, StableRanged, HeftyOverride, Incorporeal, Invisible, IncorporealFaction, BurnDeath, NoMagazines, NinjaSpawn, NoElementalDeath, NoDrop, NoSwap, 
+    AlwaysBadThrow, Soulless, LeaveToPlayer, InvincibleStagger, NoFallDamage,     
+};
+
+// Behaviors are A.I. tendencies. Having none means default actions. Keep in mind: these behaviors are how this character uses the skills any character has, and thus only affect "choices".
+public enum BehaviorList
+{
+    Mindless, Hunter, Coward, Personal, Turtle, Evasive, Enraged, ItchyFinger, WhiteNinja, GrenadeLover, ChargeUpLover, UNUSED_0, FavorDual, Runner, Accurate, SlowWitted, Tactical, UNUSED_1, ChargeUpASAP, Defensive, ThrowsOften, Focused,              
+    ADD, FarSight, Indirect, Bubble, HotFoot, Camper, Sniper, NoSprint, Sharky, FreeAttacker, TargetShy, HoldCover, SprintOnlyInPursuit, Deadly, GetAwayFromMe, UNUSED_2, UNUSED_3, TattleTale, ChargeAttack_Angry, NeverStow, TurtleForever,       
+    RearSmash, NoWakeupAlertAllies, UNUSED_4, GrappleMasher, ForeverAutofire, ButtonMasher, Catlike, LeapSlam, LeapGrappler, ChargeAttack_Bullrush, ChargeAttack_Grapple, Teleport_DodgeFlank, Teleport_DodgePursue, NoPathing, CounterAttacks,   
+    LeapPursue, NoCombat, Teleport_Panic, NeverHeavyH2H, NoMeleeFlocking, NoAttack, JamAttack, UsePatrolPath, UseGuardPosts, XRay, MagicWandAllAutos, ChargeUpMax, IgnoreSiege, SpreadsJoy, 
+};

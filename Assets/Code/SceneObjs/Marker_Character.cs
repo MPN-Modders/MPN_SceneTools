@@ -5,8 +5,6 @@ public class Marker_Character : Marker_DataAssigner
     [Space(6)]
     [Header("\tCHARACTER ASSIGNMENT")]
     [Space(20)]
-    [Tooltip("Character won't spawn until a Zone_Spawn or the Event System tells it to.")]
-    public bool SpawnEnabled = true;
     [Tooltip("The character's MadCard. Overrides the Character chosen below.")]
     public string MadCard;
     public CharacterTypes Character;
@@ -21,14 +19,20 @@ public class Marker_Character : Marker_DataAssigner
     [Tooltip("The MadCards of the armor to equip.")]
     public string[] Worn = new string[0];
 
+    [Header("  == TRAITS / BEHAVIORS == ")][Space(10)]
+    public TraitList[] AddTraits = new TraitList[0];
+    public BehaviorList[] AddBehaviors = new BehaviorList[0];
+    public TraitList[] RemoveTraits = new TraitList[0];
+    public BehaviorList[] RemoveBehaviors = new BehaviorList[0];
 
     [Space(10)]
     public ProxyObj_REPOSITORY SpawnFromDoor;
-
 }
 
 public class Marker_DataAssigner : Marker
 {
+    [Tooltip("Character won't spawn until a Zone_Spawn or the Event System tells it to.")]
+    public bool SpawnEnabled = true;
     [Tooltip("\"Any\" uses the default faction of the character(s).")]
     public Factions Faction;
     [Tooltip("Squads Only: Use the highest alert status for this faction in this room.")]
