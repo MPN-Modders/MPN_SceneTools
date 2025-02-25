@@ -7,22 +7,23 @@ public class SceneEditorHelpers
 }
 
 // INACCESIBLE PARENT CLASSES
-
-public class Marker : MonoBehaviour
+public class SceneObj : MonoBehaviour
 {
-    [Tooltip("Used by the Event System to target this MarkerObj.")]
-    public string SerialNumber = ""; // NOTE: UNUSED UNTIL EVENT SYSTEM IS IMPLEMENTED // 
+    public string SerialNumber = "";
 }
-
-public class ProxyObj : MonoBehaviour
+public class Marker : SceneObj
 {
-    [Tooltip("Used by the Event System to target this ProxyObj.")]
-    public string SerialNumber = ""; // NOTE: UNUSED UNTIL EVENT SYSTEM IS IMPLEMENTED // 
+}
+public class ProxyObj : SceneObj
+{
 }
 public class ProxyObj_Base : ProxyObj
 {
-    // Non-Room Proxies
+    // For Non-Rooms
 }
+
+
+// ENUMS GO HERE
 
 
 public enum AlertStatus { Unaware, Hunting, Combat, Match = 100 }
@@ -63,3 +64,20 @@ public enum BehaviorList
     RearSmash, NoWakeupAlertAllies, UNUSED_4, GrappleMasher, ForeverAutofire, ButtonMasher, Catlike, LeapSlam, LeapGrappler, ChargeAttack_Bullrush, ChargeAttack_Grapple, Teleport_DodgeFlank, Teleport_DodgePursue, NoPathing, CounterAttacks,   
     LeapPursue, NoCombat, Teleport_Panic, NeverHeavyH2H, NoMeleeFlocking, NoAttack, JamAttack, UsePatrolPath, UseGuardPosts, XRay, MagicWandAllAutos, ChargeUpMax, IgnoreSiege, SpreadsJoy, 
 };
+
+public enum SelectionColors { Select, Highlight, Invalid, Important, NONE = 100 };
+
+public enum InteractiveEvents
+{
+    None, UNUSED1, UNUSED2, ColorPicker, Storage, Workbench, Ammo, Hire, Locker, Heal, KillUser, AmmoNexus, AmmoGrenades, SkillTrain, FacePicker, GibUser, Wandbench,
+    Arena_StartWaves = 30, Arena_LevelSelect, Arena_Imprint,
+    Int_SpawnUnit = 50, Int_SpawnWeapon, Int_PlayCharacter, Int_Music, Int_ClearAll, Int_Stages, Int_Difficulty,
+    Story_LevelSelect = 70,
+    Holiday = 100
+};
+
+public enum GameDifficulty { Easy, Normal, Hard, Madness };
+public enum Currency { None = -100, Cash, Tokens }
+public enum MenuTypes { None = -100, Equipped = 0, Storage, Sell, Buy, Skills, Hairstyles, Workbench, Colorizer, SkinPicker, Swatches }
+public enum UpgradeValues { HirelingCap, Clonetanks, MinionLevel, HirelingLevelCap, NONE = 100 }
+

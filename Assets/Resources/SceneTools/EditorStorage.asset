@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bddec23b78846564eb6c590f3323d61e, type: 3}
   m_Name: EditorStorage
   m_EditorClassIdentifier: 
+  ControlRoom:
+  - {fileID: 388625419605351210, guid: e73e1ca91459f1d4884309dd28f3ace6, type: 3}
+  - {fileID: -4642823358527189551, guid: e73e1ca91459f1d4884309dd28f3ace6, type: 3}
   Fallback: {fileID: -1566201460090224680, guid: 1031c52adae0ffb47a07bfe02eacd583,
     type: 3}
   Doors:
+  - name: ' > EMPTY'
+    Mesh: {fileID: 2635522498378792772, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
+    Type: -1
   - name: ' > Standard'
     Mesh: {fileID: 3417675997412986688, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
     Type: 0
@@ -175,4 +181,132 @@ MonoBehaviour:
     Type: 3
   - name: ' > Pegboard'
     Mesh: {fileID: -71495351801911237, guid: 1031c52adae0ffb47a07bfe02eacd583, type: 3}
+    Type: 100
+  Interactives:
+  - name: ' > 0'
+    Mesh: {fileID: -520645096794329548, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 0
+  - name: ' > BoxLift'
+    Mesh: {fileID: 7246788554959313052, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 20
+  - name: ' > Button'
+    Mesh: {fileID: -247169043677078247, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 21
+  - name: ' > Buttons'
+    Mesh: {fileID: 5844764025469610307, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 22
+  - name: ' > Elevator'
+    Mesh: {fileID: -4383274412848772509, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 23
+  - name: ' > Monitor'
+    Mesh: {fileID: -4811015294765041149, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 60
+  - name: ' > Laptop'
+    Mesh: {fileID: -2432507852534228613, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 61
+  - name: ' > Console1'
+    Mesh: {fileID: -8735576985712369995, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 62
+  - name: ' > Console2'
+    Mesh: {fileID: 6097753167755740974, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 63
+  - name: ' > Console2_Blue'
+    Mesh: {fileID: 6097753167755740974, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 64
+  - name: ' > Console3'
+    Mesh: {fileID: -866240720197984551, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 65
+  - name: ' > Console3_Blue'
+    Mesh: {fileID: -866240720197984551, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 66
+  - name: ' > Console4'
+    Mesh: {fileID: -4787282925319763080, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 67
+  - name: ' > Console5'
+    Mesh: {fileID: 2168769505739174562, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 68
+  - name: ' > Console5_Blue'
+    Mesh: {fileID: 2168769505739174562, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 69
+  - name: ' > ConsoleAsylum'
+    Mesh: {fileID: -2006481111605081109, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 70
+  - name: ' > ConsoleOffice'
+    Mesh: {fileID: 3873915081797988122, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 71
+  - name: ' > Switch'
+    Mesh: {fileID: -5627600931346301149, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 100
+  - name: ' > LeverBig'
+    Mesh: {fileID: 7902090440348624667, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 101
+  - name: ' > Phone'
+    Mesh: {fileID: 7849782589419022317, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 102
+  - name: ' > Ticket'
+    Mesh: {fileID: 206271116984561122, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 103
+  - name: ' > Viewfinder'
+    Mesh: {fileID: 8124883689646142861, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 104
+  - name: ' > BombsMany'
+    Mesh: {fileID: 7726361534632391911, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 105
+  - name: ' > Keycard_Blue'
+    Mesh: {fileID: 6925846430001403635, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 106
+  - name: ' > Keycard_Gold'
+    Mesh: {fileID: 6925846430001403635, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 107
+  - name: ' > Valve'
+    Mesh: {fileID: -1511786294542850700, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 108
+  - name: ' > PaperStack'
+    Mesh: {fileID: -7386631771865603039, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 109
+  - name: ' > Shelf'
+    Mesh: {fileID: -5456192324082913415, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 110
+  - name: ' > Trash'
+    Mesh: {fileID: 3197098748147430635, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 111
+  - name: ' > FilingCabinet'
+    Mesh: {fileID: -3656520825838733027, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 112
+  - name: ' > Ammo'
+    Mesh: {fileID: -999489351759420108, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 150
+  - name: ' > AmmoGrenade'
+    Mesh: {fileID: 881901304659731721, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 151
+  - name: ' > AmmoNega'
+    Mesh: {fileID: 2151040867874225193, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 152
+  - name: ' > AmmoNega'
+    Mesh: {fileID: -1968180974679586998, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 500
+  - name: ' > AmmoNega'
+    Mesh: {fileID: 4371387145469975752, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 501
+  Togglables:
+  - name: ' > INVIS'
+    Mesh: {fileID: -3065862382071041758, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 0
+  - name: ' > Spikes'
+    Mesh: {fileID: -3402739289795222171, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 20
+  - name: ' > Slab'
+    Mesh: {fileID: 3335364170101355944, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 21
+  - name: ' > Cage'
+    Mesh: {fileID: 1496319632197941322, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 22
+  - name: ' > Glass'
+    Mesh: {fileID: -4998245464999525695, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 23
+  - name: ' > Bridge'
+    Mesh: {fileID: -725232659098237452, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
+    Type: 50
+  - name: ' > Fanblade'
+    Mesh: {fileID: -6749379102352178009, guid: 8a29cdd974b2072459c94ddd23c7243b, type: 3}
     Type: 100

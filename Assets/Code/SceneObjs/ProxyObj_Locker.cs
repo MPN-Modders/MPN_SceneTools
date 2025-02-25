@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class ProxyObj_Locker : ProxyObj_Interact
+public class ProxyObj_Locker : ProxyObj
 {
     public ProxyType Type;
 
@@ -17,11 +17,9 @@ public class ProxyObj_Locker : ProxyObj_Interact
 
     [Tooltip("The MadCards of the items in this locker.")]
     public List<string> Contents = new List<string>();
+
+    // EVENTS
+    [Space(20)][Header("     =============    ")][Space(20)]
+    [Tooltip("The Filename of the EventCard activated by opening this Locker. NOTE: Conditions are SKIPPED!")]
+    public string LockerEvent;
 }
-
-public class ProxyObj_Interact : ProxyObj
-{
-
-
-}
-
