@@ -24,10 +24,22 @@ public class Marker_Character : Marker_DataAssigner
     public BehaviorList[] AddBehaviors = new BehaviorList[0];
     public TraitList[] RemoveTraits = new TraitList[0];
     public BehaviorList[] RemoveBehaviors = new BehaviorList[0];
+    public SkillsList[] RemoveSkills = new SkillsList[0];
+    public string[] AddModules = new string[0];
 
     [Space(10)]
-    public ProxyObj_REPOSITORY SpawnFromDoor;
-}
+    [Tooltip("Essential characters take less damage in Executions, their fully damaged corpus won't auto-break from a fall, and they don't decay when bodies on screen exceed player settings. They're also a condition for checks done by Zone_Dead.")]
+    public bool AmEssential = false;
+    [Tooltip("This character cannot be moved for any reason.")]
+    public bool FixedInPlace = false;
+    [Tooltip("If set to the appropriate Faction, this character will be added to the Player's squad (NOTE: This 'unsupported' feature will only find the Player's squad if they are the only Player faction squad in the room)")]
+    public bool ToPlayerSquad;
+    [Tooltip("Do I get removed from my squad after death or not?")]
+    public bool PermanentSquadmate;
+    public bool AmInvincible = false;
+
+    [Space(10)]
+    public ProxyObj_REPOSITORY SpawnFromDoor; }
 
 public class Marker_DataAssigner : Marker
 {
@@ -70,6 +82,7 @@ public class PatrolParameters_STP
 public class PatrolPath_STP
 {
 	[HideInInspector] public string name = "Patrol Path";
+    [Tooltip("Leave blank/empty elements in this list to set the previous waypoint as a \"wait here!\" order.")]
     public Marker_Waypoint[] PathPoints = new Marker_Waypoint[0];
     [Tooltip("If TRUE, the exact path used to get from the first to the last Point will be duplicated and reversed, allowing the Squad to return the way they came.")]
     public bool GenerateReturnPath = true;
