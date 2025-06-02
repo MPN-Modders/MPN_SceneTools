@@ -7,7 +7,7 @@ There are two ways you can get the scene tools project on your desktop.
 1. Download the ZIP file of this repo
 2. Clone it using Git
 
-**If you want to contribute to the scene tools Unity project (typos, bug fixing), please fork it and then get that fork on your desktop using the latter option!!!***
+**If you want to contribute to the scene tools Unity project (typos, bug fixing), please fork it and then get that fork on your desktop using the latter option!!!**
 
 Here's how to download the repo as a ZIP:
 ![image](https://github.com/user-attachments/assets/31ee9651-f0ad-4294-8cd8-6e756012274a)
