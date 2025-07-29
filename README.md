@@ -18,7 +18,7 @@ Click on code
 
 Download the ZIP
 ### Installing Unity
-If you haven't installed [Unity 2019.2.16f1](https://unity.com/releases/editor/archive) yet, then you will need to install it. The launcher should guide you through the setup, but we will provide directions on how to navigate the version archives.
+If you haven't installed [Unity 2019.2.6f1](https://unity.com/releases/editor/archive) yet, then you will need to install it. The launcher should guide you through the setup, but we will provide directions on how to navigate the version archives.
 
 ![image](https://github.com/user-attachments/assets/36c02abb-8c07-4f05-854b-20152e55d8cc)
 
