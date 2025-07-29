@@ -49,7 +49,7 @@ public enum AffectCharacters { None, Everyone, NonEssentials, Essentials, Player
 public enum TraitList
 {
     Zed, NoPain, Hero, AutoDodgeThrown,   
-    NoCombo, BulletsAutoHit, NoWeapons, /*UNUSED,*/ TrickyHead = 8, /*UNUSED,*/ SpawnDual = 10, BowlingPin, Deadly_Contact, NoMelee, WalkPulse, /*UNUSED,*/ NoGore = 16, /*UNUSED,*/ InfiniteAmmo = 18, NoDisarm, VanishDeath, VanishDeactivate, Blind,             
+    NoCombo, BulletsAutoHit, NoWeapons, /*UNUSED,*/ TrickyHead = 8, NoRanged, SpawnDual, BowlingPin, Deadly_Contact, NoMelee, WalkPulse, /*UNUSED,*/ NoGore = 16, /*UNUSED,*/ InfiniteAmmo = 18, NoDisarm, VanishDeath, VanishDeactivate, Blind,             
     ZeroGravityDeath, EffectOnDeactivate, GrappleKiller, NoCombatLock, Unphased, DizzyRagdoll, /*UNUSED,*/ TurretSpin = 30, /*UNUSED,*/ Mushy = 32, StartWounds, NoDizzy, H2HAngry, NoH2HSnap, NoExecute_Hilt, WeakHands, ItemsGoneOnDeath,  
     StaggerOnLowHealth, DualWieldOverride, Lumbering, Sluggish, TwoHandOverride, Clumsy, Deaf, RemotePickup, ZedProof, MegaKnockback, AlwaysGoreDeath, Heavy, Uncounterable, /*UNUSED,*/ NoCombatRagdoll = 54, ThrowForward, DashAttacker,      
     NoExecute_Local, Unconvertable, GrappleAttack, Robotic, IgnoreAutoEmbed, StableRanged, HeftyOverride, Incorporeal, Invisible, IncorporealFaction, BurnDeath, NoMagazines, NinjaSpawn, NoElementalDeath, NoDrop, NoSwap, 
@@ -119,6 +119,9 @@ public enum DamageEffect { NoKill, Standard, IgnoreThreshold, NoKillPlayer }
 public enum HitFrequency { Always, OncePerFrame, OnceTilReset }
 public enum AttackQuality { Undodgable = -1, SweetSpot, Normal, Graze }
 public enum ExitTypes { Bots, NPCsAndBots, Any, NPCsNotBots, Player, PlayerSquadBots, PlayerSquad };
+
+public enum StartConditions { Room, Zone, /*EventOnly,*/ Anywhere = 3 };
+public enum DisableControlsList { None, Actors, ActorsAndPlayer }; // None means anyone can move. Actors means only participants freeze. ActorsAndPlayer is the Player and his squad.
 
 public enum BonusType
 {

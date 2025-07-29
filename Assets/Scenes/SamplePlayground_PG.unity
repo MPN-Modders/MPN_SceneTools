@@ -1413,11 +1413,16 @@ PrefabInstance:
       propertyPath: Type
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 8877034400947454525, guid: 3d1d3606ac3d95b478548ec5c13b664c,
+        type: 3}
+      propertyPath: LinkedDoor
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2977503676089343135, guid: 3d1d3606ac3d95b478548ec5c13b664c,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2746583626582511635, guid: 1031c52adae0ffb47a07bfe02eacd583,
+      objectReference: {fileID: -7407359351324910318, guid: 1031c52adae0ffb47a07bfe02eacd583,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d1d3606ac3d95b478548ec5c13b664c, type: 3}
@@ -1645,7 +1650,7 @@ PrefabInstance:
     - target: {fileID: 3172049315982065358, guid: cf4f5330efea25d48925e73561d2e849,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6175896167308654669, guid: cf4f5330efea25d48925e73561d2e849,
         type: 3}
@@ -1690,7 +1695,7 @@ PrefabInstance:
     - target: {fileID: 6757251920015342933, guid: cf4f5330efea25d48925e73561d2e849,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf4f5330efea25d48925e73561d2e849, type: 3}
@@ -2017,7 +2022,7 @@ PrefabInstance:
     - target: {fileID: 627546138217612451, guid: 8d54a1d8bd329b646808bf4fcf1816d1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.18311843
+      value: 83.5
       objectReference: {fileID: 0}
     - target: {fileID: 627546138217612451, guid: 8d54a1d8bd329b646808bf4fcf1816d1,
         type: 3}
@@ -2401,6 +2406,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8719193562614825414, guid: 48d358e4ac09f7043b85e5078fb393ca,
         type: 3}
+      propertyPath: Contents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719193562614825414, guid: 48d358e4ac09f7043b85e5078fb393ca,
+        type: 3}
       propertyPath: TaskEvent
       value: NewEvent1
       objectReference: {fileID: 0}
@@ -2408,6 +2418,11 @@ PrefabInstance:
         type: 3}
       propertyPath: LockerEvent
       value: NewEvent1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719193562614825414, guid: 48d358e4ac09f7043b85e5078fb393ca,
+        type: 3}
+      propertyPath: Contents.Array.data[0]
+      value: R_Deagle
       objectReference: {fileID: 0}
     - target: {fileID: 3126470425326608228, guid: 48d358e4ac09f7043b85e5078fb393ca,
         type: 3}
