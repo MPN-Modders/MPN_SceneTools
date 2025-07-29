@@ -24,9 +24,9 @@ If you haven't installed [Unity 2019.2.6f1](https://unity.com/releases/editor/ar
 
 Select 2019
 
-![image](https://github.com/user-attachments/assets/80e2fe3a-f480-43c1-8631-af5765a5b22d)
+![image](https://github.com/user-attachments/assets/a5385a00-9cb1-4fb5-9bbd-50713f230fcf)
 
-Select version 2019.2.16f1
+Select version 2019.2.6f1
 
 ### Opening up the project
 Once you have installed everything, open up Unity hub, click the Add button at the top, then find the Scene Tools project.
