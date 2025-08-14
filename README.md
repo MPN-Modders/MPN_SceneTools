@@ -31,7 +31,7 @@ Select version 2019.2.6f1
 ### Opening up the project
 Once you have installed everything, open up Unity hub, click the Add button at the top, then find the Scene Tools project.
 
-![image](https://github.com/user-attachments/assets/0fcf08ee-f055-4192-b44f-28b6d774b534)
+![image](https://github.com/user-attachments/assets/7bcf414d-3c43-4eb2-8798-9c9aaedc21a0)
 
 Click the add button
 
