@@ -15,7 +15,7 @@ public class AssetBundle_Builder_Editor
     [MenuItem("Madness/AssetBundle/ >> Build (Compressed) ")]
     static void Build_Compressed()
     {
-        BuildAllAssetBundles(BuildAssetBundleOptions.None);
+        BuildAllAssetBundles(BuildAssetBundleOptions.ChunkBasedCompression);
     }
 
     static void BuildAllAssetBundles(BuildAssetBundleOptions inBuildOption)
