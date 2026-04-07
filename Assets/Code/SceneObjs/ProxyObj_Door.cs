@@ -32,8 +32,8 @@ public class ProxyObj_Door : ProxyObj_REPOSITORY
 
     [Header("  == USE BOOLS == ")]
     [Space(10)]
-    [Tooltip("Disable the room that sends you to this door.")]
-    public bool NoReturn;
+    //[Tooltip("Disable the room that sends you to this door.")]
+    //public bool NoReturn; // REMOVED: No MPN functionality.
     [Tooltip("This door is usable even if the room is locked down.")]
     public bool IgnoreLockdown;
     public bool UserInvincible;
