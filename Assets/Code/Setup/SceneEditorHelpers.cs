@@ -7,17 +7,17 @@ public class SceneEditorHelpers
 }
 
 // INACCESIBLE PARENT CLASSES
-public class SceneObj : MonoBehaviour
+public abstract class SceneObj : MonoBehaviour
 {
     public string SerialNumber = "";
 }
-public class Marker : SceneObj
+public abstract class Marker : SceneObj
 {
 }
-public class ProxyObj : SceneObj
+public abstract class ProxyObj : SceneObj
 {
 }
-public class ProxyObj_Base : ProxyObj
+public abstract class ProxyObj_Base : ProxyObj
 {
     // For Non-Rooms
 }
@@ -146,4 +146,11 @@ public enum BonusType
     __Headquarters__ = 800, HirelingRecoveryTime,
 
 }
-
+public enum WalkOrder
+{
+    NEVER,                  // Never walk during this order.
+    ALWAYS,                 // Always walk during this order
+    DEFAULT,                // DEFAULT is "While Unaware"
+    WhileTargetUnseen,      // If I can't see my target AND I'm unaware, then walk
+    RunDontSprint           // Never walk, but never Sprint either.
+};
